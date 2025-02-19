@@ -1,0 +1,57 @@
+Name: Dylan Phoutthavong
+Date: Februrary 15th, 2025
+Course: CSCI 3751
+
+Problem 3 (24 points): 
+At the shell command prompt, enter piped commands that take a text file as input and display the top ‘n’ most frequently occurring words in descending order.  The links to the input text files are listed in section 6 below.
+You should limit the number of commands to less than 10.
+
+Below are the expected outputs from executing the commands.  
+1. Input: Lincoln.txt (Lincoln’s Gettysburg speech), top 5 words
+Expected output:
+
+13 that
+11 the
+10 we
+8 to
+8 here
+
+Code: 
+
+# Step 1: Convert non-alphabetic characters to newlines (splitting words)
+# Step 2: Convert uppercase letters to lowercase for uniformity
+# Step 3: Sort words alphabetically
+# Step 4: Count occurrences of each unique word
+# Step 5: Sort words by frequency in descending order
+# Step 6: Display the top 5 most frequently occurring words
+tr -cs '[:alpha:]' '\n' < Lincoln.txt | \
+tr '[:upper:]' '[:lower:]' | \
+sort | uniq -c | sort -nr | head -n 5
+
+Output:
+
+  13 that
+  11 the
+  10 we
+   8 to
+   8 here
+
+2. Input: Kennedy.txt (Kennedy’s inaugural speech), top 3 words
+Expected output:
+
+33 the
+24 of
+22 to
+
+Code:
+
+# Process the Kennedy.txt file to extract the top 3 most frequent words
+tr -cs '[:alpha:]' '\n' < Kennedy.txt | \
+tr '[:upper:]' '[:lower:]' | \
+sort | uniq -c | sort -nr | head -n 3
+
+Output:
+
+  33 the
+  24 of
+  22 to

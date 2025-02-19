@@ -1,0 +1,23 @@
+Name: Dylan Phoutthavong
+Date: Februrary 15th, 2025
+Course: CSCI 3751
+
+Explanation of Why Redirection Fails
+
+When running the command:
+
+sort file1 > file1
+the redirection (>) fails because:
+
+- The shell processes > file1 before executing sort file1.
+- This causes file1 to be emptied before sort reads from it.
+- Since sort gets an empty input file, it produces no output, resulting in file1 being empty.
+
+
+Corrected Command
+To sort and overwrite the file safely, use:
+
+sort file1 -o file1
+
+Explanation of the Fix:
+- The -o option in sort specifies the output file, allowing sorting to be done in-place without prematurely truncating the file.

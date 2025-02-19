@@ -1,0 +1,73 @@
+Name: Dylan Phoutthavong
+Date: Februrary 15th, 2025
+Course: CSCI 3751
+
+5. Extra credit problem [10 points]
+
+You may use the same Unix commands in Question 2 but now put them into a (bash) shell script (say, wordCounter).  Shell scripting (programming) enables you to do more than what’s done in Question 2 and we want to take advantage of some of those features.
+
+Some suggestions:
+
+- Use a looping construct to process the input, file by file, without writing the same code repetitively.
+- There are many ways to handle multiple files.  In this exercise, you are asked to use an array variable to store the file names
+- Consider using the 'shift’ command to shift(move) to the next argument. 
+- Do not worry about minor discrepancies in the number of frequencies from my example shown below because they can be slightly different depending on how you handle the word delimiters.
+
+Code:
+
+#!/bin/bash
+
+# Check if correct arguments are given
+if [ "$#" -lt 2 ]; then
+    echo "Usage: $0 <n> <file1> <file2> ..."
+    exit 1
+fi
+
+# Extract the first argument as the number of top words to display
+N=$1
+shift  # Remove first argument, leaving only file names
+
+# Loop through all files provided as arguments
+for file in "$@"; do
+    if [[ ! -f "$file" ]]; then
+        echo "File $file not found!"
+        continue
+    fi
+
+    echo "==== Processing: $file ===="
+
+    # Count the number of lines, words, and characters
+    wc_output=$(wc "$file")
+    echo "=== $wc_output ==="
+
+    # Extract and count words, sort by frequency, and display top N
+    tr -c '[:alnum:]' '[\n*]' < "$file" | grep -v "^\s*$" | sort | uniq -c | sort -nr | head -n "$N"
+
+    echo "========================="
+done
+
+Output:
+
+./wordCounter.sh 4 Kennedy.txt King.txt Lincoln.txt
+
+==== Processing: Kennedy.txt ====
+===       19     561    3183 Kennedy.txt ===
+  32 the
+  24 of
+  18 to
+  16 we
+=========================
+==== Processing: King.txt ====
+===       58    1652    9063 King.txt ===
+ 100 the
+  99 of
+  60 to
+  39 and
+=========================
+==== Processing: Lincoln.txt ====
+===        6     278    1477 Lincoln.txt ===
+  13 that
+   9 the
+   8 we
+   8 to
+=========================
