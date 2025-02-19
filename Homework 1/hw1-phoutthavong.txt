@@ -1,0 +1,624 @@
+Script started on 2025-02-04 10:23:27-07:00 [TERM="xterm-256color" TTY="/dev/pts/27" COLUMNS="96" LINES="75"]
+]0;phouttdy@pceasapp960:~[?2004h[phouttdy@pceasapp960 ~]$ date
+[?2004lTue Feb  4 10:23:32 AM MST 2025
+]0;phouttdy@pceasapp960:~[?2004h[phouttdy@pceasapp960 ~]$ cal
+[?2004l    February 2025   
+Su Mo Tu We Th Fr Sa
+                   1
+ 2  3 [7m 4[27m  5  6  7  8
+ 9 10 11 12 13 14 15
+16 17 18 19 20 21 22
+23 24 25 26 27 28   
+                    
+]0;phouttdy@pceasapp960:~[?2004h[phouttdy@pceasapp960 ~]$ who
+[?2004ldangb2   pts/3        2025-02-04 08:47 (10.128.32.53)
+dangb2   pts/9        2025-02-04 08:48 (10.128.32.53)
+wilkinlo pts/10       2025-02-04 09:23 (10.128.32.55)
+polk     pts/11       2025-02-04 09:28 (10.128.32.53)
+thornbed pts/12       2025-02-04 09:32 (10.128.32.53)
+elamot   pts/13       2025-02-04 09:39 (10.128.32.53)
+villanic pts/14       2025-02-04 09:38 (10.128.32.53)
+elamot   pts/15       2025-02-04 09:38 (10.128.32.53)
+benavenv pts/16       2025-02-04 09:44 (10.128.32.53)
+phouttdy pts/17       2025-02-04 10:21 (10.128.32.53)
+ogled    pts/18       2025-02-04 09:46 (10.128.32.53)
+torrjosh pts/19       2025-02-04 09:48 (10.128.32.53)
+lordja   pts/20       2025-02-04 09:50 (10.128.32.53)
+abdellar pts/22       2025-02-04 09:53 (10.128.32.53)
+aberaka  pts/25       2025-02-04 09:58 (10.128.32.53)
+aberaka  pts/24       2025-02-04 09:57 (10.128.32.53)
+wilkinlo pts/26       2025-02-04 10:22 (10.128.32.53)
+phouttdy pts/27       2025-02-04 10:22 (10.128.32.56)
+meliad   pts/28       2025-02-04 10:09 (10.128.32.55)
+wilkinlo pts/29       2025-02-04 10:22 (10.128.32.58)
+wilkinlo pts/30       2025-02-04 10:23 (10.128.32.55)
+corkeryj pts/32       2025-02-04 10:15 (10.128.32.53)
+harvemit pts/35       2025-02-04 10:16 (10.20.232.206)
+garzavad pts/34       2025-02-04 10:16 (10.128.32.55)
+]0;phouttdy@pceasapp960:~[?2004h[phouttdy@pceasapp960 ~]$ ps -p $$
+[?2004l    PID TTY          TIME CMD
+ 766144 pts/36   00:00:00 bash
+]0;phouttdy@pceasapp960:~[?2004h[phouttdy@pceasapp960 ~]$ ps -o ppid=
+[?2004l 766142
+ 766144
+]0;phouttdy@pceasapp960:~[?2004h[phouttdy@pceasapp960 ~]$ pwd
+[?2004l/csegrid/home/phouttdy
+]0;phouttdy@pceasapp960:~[?2004h[phouttdy@pceasapp960 ~]$ mkdir csci3751
+[?2004lmkdir: cannot create directory ‘csci3751’: File exists
+]0;phouttdy@pceasapp960:~[?2004h[phouttdy@pceasapp960 ~]$ [7mcp /var/tmp/CSCI3751/src.3e.tar.gz .[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccp /var/tmp/CSCI3751/src.3e.tar.gz .
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l]0;phouttdy@pceasapp960:~[?2004h[phouttdy@pceasapp960 ~]$ ls -la
+[?2004ltotal 180
+drwx------    5 phouttdy domain users  4096 Feb  4 10:26 [0m[01;34m.[0m
+drwxrwxrwx 1307 root     domain users 36864 Feb  2 19:04 [34;42m..[0m
+-rw-------    1 phouttdy domain users  1471 Feb  3 15:27 .bash_history
+-rw-------    1 phouttdy domain users    18 Jan 27 14:04 .bash_logout
+-rw-------    1 phouttdy domain users   141 Jan 27 14:04 .bash_profile
+-rw-------    1 phouttdy domain users   492 Jan 27 14:04 .bashrc
+drwxr-xr-x    3 phouttdy domain users  4096 Jan 29 16:13 [01;34mcsci3751[0m
+drwxr-xr-x    2 phouttdy domain users  4096 Jan 29 14:30 [01;34mcse_grid_tutorial[0m
+-rw-------    1 phouttdy domain users   334 Jan 27 14:04 .emacs
+-rw-r--r--    1 phouttdy domain users  1003 Jan 29 16:11 find-result.txt
+-rw-r--r--    1 phouttdy domain users     0 Feb  4 10:23 hw1-phoutthavong.txt
+-rw-r--r--    1 phouttdy domain users 92830 Feb  4 10:26 [01;31msrc.3e.tar.gz[0m
+drwx------    2 phouttdy domain users  4096 Jan 27 14:05 [01;34m.ssh[0m
+-rw-r--r--    1 phouttdy domain users  8192 Jan 29 14:53 typescript
+]0;phouttdy@pceasapp960:~[?2004h[phouttdy@pceasapp960 ~]$ [7mtar -xzvf src.3e.tar.gz[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctar -xzvf src.3e.tar.gz
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lapue.3e/
+apue.3e/advio/
+apue.3e/daemons/
+apue.3e/datafiles/
+apue.3e/db/
+apue.3e/DISCLAIMER
+apue.3e/environ/
+apue.3e/exercises/
+apue.3e/figlinks/
+apue.3e/filedir/
+apue.3e/fileio/
+apue.3e/include/
+apue.3e/intro/
+apue.3e/ipc1/
+apue.3e/ipc2/
+apue.3e/lib/
+apue.3e/Make.defines.freebsd
+apue.3e/Make.defines.linux
+apue.3e/Make.defines.macos
+apue.3e/Make.defines.solaris
+apue.3e/Make.libapue.inc
+apue.3e/Makefile
+apue.3e/printer/
+apue.3e/proc/
+apue.3e/pty/
+apue.3e/README
+apue.3e/relation/
+apue.3e/signals/
+apue.3e/sockets/
+apue.3e/standards/
+apue.3e/stdio/
+apue.3e/systype.sh
+apue.3e/termios/
+apue.3e/threadctl/
+apue.3e/threads/
+apue.3e/threads/badexit2.c
+apue.3e/threads/barrier.c
+apue.3e/threads/cleanup.c
+apue.3e/threads/condvar.c
+apue.3e/threads/exitstatus.c
+apue.3e/threads/Makefile
+apue.3e/threads/maketimeout.c
+apue.3e/threads/mutex1.c
+apue.3e/threads/mutex2.c
+apue.3e/threads/mutex3.c
+apue.3e/threads/rwlock.c
+apue.3e/threads/threadid.c
+apue.3e/threads/timedlock.c
+apue.3e/threadctl/atfork.c
+apue.3e/threadctl/detach.c
+apue.3e/threadctl/getenv1.c
+apue.3e/threadctl/getenv2.c
+apue.3e/threadctl/getenv3.c
+apue.3e/threadctl/Makefile
+apue.3e/threadctl/suspend.c
+apue.3e/threadctl/timeout.c
+apue.3e/termios/csize.c
+apue.3e/termios/ctermid.c
+apue.3e/termios/getpass.c
+apue.3e/termios/isatty.c
+apue.3e/termios/Makefile
+apue.3e/termios/settty.c
+apue.3e/termios/t_getpass.c
+apue.3e/termios/t_isatty.c
+apue.3e/termios/t_raw.c
+apue.3e/termios/t_ttyname.c
+apue.3e/termios/ttyname.c
+apue.3e/termios/winch.c
+apue.3e/stdio/buf.c
+apue.3e/stdio/fgetsfputs.c
+apue.3e/stdio/getcharbug.c
+apue.3e/stdio/getcputc.c
+apue.3e/stdio/Makefile
+apue.3e/stdio/memstr.c
+apue.3e/stdio/mkstemp.c
+apue.3e/stdio/tempfiles.c
+apue.3e/standards/conf.c.modified
+apue.3e/standards/makeconf.awk
+apue.3e/standards/Makefile
+apue.3e/standards/makeopt.awk
+apue.3e/standards/pathconf-lim.sym
+apue.3e/standards/pathconf-opt.sym
+apue.3e/standards/sysconf-lim.sym
+apue.3e/standards/sysconf-opt.sym
+apue.3e/sockets/clconn.c
+apue.3e/sockets/clconn2.c
+apue.3e/sockets/findsvc.c
+apue.3e/sockets/initsrv1.c
+apue.3e/sockets/initsrv2.c
+apue.3e/sockets/makefile
+apue.3e/sockets/ruptime-dg.c
+apue.3e/sockets/ruptime.c
+apue.3e/sockets/ruptimed-dg.c
+apue.3e/sockets/ruptimed-fd.c
+apue.3e/sockets/ruptimed.c
+apue.3e/signals/abort.c
+apue.3e/signals/child.c
+apue.3e/signals/critical.c
+apue.3e/signals/Makefile
+apue.3e/signals/mask.c
+apue.3e/signals/read1.c
+apue.3e/signals/read2.c
+apue.3e/signals/reenter.c
+apue.3e/signals/setops.c
+apue.3e/signals/sigtstp.c
+apue.3e/signals/sigusr.c
+apue.3e/signals/sleep1.c
+apue.3e/signals/sleep2.c
+apue.3e/signals/suspend1.c
+apue.3e/signals/suspend2.c
+apue.3e/signals/system.c
+apue.3e/signals/systest2.c
+apue.3e/signals/tsleep2.c
+apue.3e/relation/Makefile
+apue.3e/relation/orphan3.c
+apue.3e/pty/driver.c
+apue.3e/pty/loop.c
+apue.3e/pty/main.c
+apue.3e/pty/Makefile
+apue.3e/proc/awkexample
+apue.3e/proc/echoall.c
+apue.3e/proc/exec1.c
+apue.3e/proc/exec2.c
+apue.3e/proc/fork1.c
+apue.3e/proc/fork2.c
+apue.3e/proc/Makefile
+apue.3e/proc/nice.c
+apue.3e/proc/pracct.c
+apue.3e/proc/pruids.c
+apue.3e/proc/system.c
+apue.3e/proc/systest1.c
+apue.3e/proc/systest3.c
+apue.3e/proc/tellwait1.c
+apue.3e/proc/tellwait2.c
+apue.3e/proc/test1.c
+apue.3e/proc/times1.c
+apue.3e/proc/vfork1.c
+apue.3e/proc/wait1.c
+apue.3e/printer/ipp.h
+apue.3e/printer/Makefile
+apue.3e/printer/print.c
+apue.3e/printer/print.h
+apue.3e/printer/printd.c
+apue.3e/printer/util.c
+apue.3e/lib/bufargs.c
+apue.3e/lib/cliconn.c
+apue.3e/lib/clrfl.c
+apue.3e/lib/daemonize.c
+apue.3e/lib/error.c
+apue.3e/lib/errorlog.c
+apue.3e/lib/lockreg.c
+apue.3e/lib/locktest.c
+apue.3e/lib/Makefile
+apue.3e/lib/nspipe.c
+apue.3e/lib/openmax.c
+apue.3e/lib/Orecvfd.c
+apue.3e/lib/pathalloc.c
+apue.3e/lib/popen.c
+apue.3e/lib/prexit.c
+apue.3e/lib/prmask.c
+apue.3e/lib/ptyfork.c
+apue.3e/lib/ptyopen.c
+apue.3e/lib/readn.c
+apue.3e/lib/recvfd.c
+apue.3e/lib/semaph.c
+apue.3e/lib/senderr.c
+apue.3e/lib/sendfd.c
+apue.3e/lib/servaccept.c
+apue.3e/lib/servlisten.c
+apue.3e/lib/setfd.c
+apue.3e/lib/setfl.c
+apue.3e/lib/signal.c
+apue.3e/lib/signalintr.c
+apue.3e/lib/sleep.c
+apue.3e/lib/sleepus.c
+apue.3e/lib/spipe.c
+apue.3e/lib/strerror.c
+apue.3e/lib/tellwait.c
+apue.3e/lib/ttymodes.c
+apue.3e/lib/writen.c
+apue.3e/ipc2/bindunix.c
+apue.3e/ipc2/Makefile
+apue.3e/ipc2/open/
+apue.3e/ipc2/open.fe/
+apue.3e/ipc2/opend/
+apue.3e/ipc2/opend.fe/
+apue.3e/ipc2/pollmsg.c
+apue.3e/ipc2/recvfd2.c
+apue.3e/ipc2/sendfd2.c
+apue.3e/ipc2/sendmsg.c
+apue.3e/ipc2/opend.fe/cliargs.c
+apue.3e/ipc2/opend.fe/main.c
+apue.3e/ipc2/opend.fe/Makefile
+apue.3e/ipc2/opend.fe/opend.h
+apue.3e/ipc2/opend.fe/request.c
+apue.3e/ipc2/opend/cliargs.c
+apue.3e/ipc2/opend/client.c
+apue.3e/ipc2/opend/loop.poll.c
+apue.3e/ipc2/opend/loop.select.c
+apue.3e/ipc2/opend/main.c
+apue.3e/ipc2/opend/Makefile
+apue.3e/ipc2/opend/opend.h
+apue.3e/ipc2/opend/request.c
+apue.3e/ipc2/open.fe/main.c
+apue.3e/ipc2/open.fe/Makefile
+apue.3e/ipc2/open.fe/open.c
+apue.3e/ipc2/open.fe/open.h
+apue.3e/ipc2/open/main.c
+apue.3e/ipc2/open/Makefile
+apue.3e/ipc2/open/open.c
+apue.3e/ipc2/open/open.h
+apue.3e/ipc1/add2.c
+apue.3e/ipc1/add2stdio.c
+apue.3e/ipc1/devzero.c
+apue.3e/ipc1/Makefile
+apue.3e/ipc1/myuclc.c
+apue.3e/ipc1/pipe1.c
+apue.3e/ipc1/pipe2.c
+apue.3e/ipc1/pipe4.c
+apue.3e/ipc1/popen.c
+apue.3e/ipc1/popen1.c
+apue.3e/ipc1/popen2.c
+apue.3e/ipc1/slock.c
+apue.3e/ipc1/slock.h
+apue.3e/ipc1/tellwait.c
+apue.3e/ipc1/tshm.c
+apue.3e/intro/getcputc.c
+apue.3e/intro/hello.c
+apue.3e/intro/ls1.c
+apue.3e/intro/Makefile
+apue.3e/intro/mycat.c
+apue.3e/intro/shell1.c
+apue.3e/intro/shell2.c
+apue.3e/intro/testerror.c
+apue.3e/intro/uidgid.c
+apue.3e/include/apue.h
+apue.3e/fileio/fileflags.c
+apue.3e/fileio/hole.c
+apue.3e/fileio/Makefile
+apue.3e/fileio/mycat.c
+apue.3e/fileio/seek.c
+apue.3e/fileio/setfl.c
+apue.3e/filedir/access.c
+apue.3e/filedir/cdpwd.c
+apue.3e/filedir/changemod.c
+apue.3e/filedir/devrdev.c
+apue.3e/filedir/filetype.c
+apue.3e/filedir/ftw8.c
+apue.3e/filedir/Makefile
+apue.3e/filedir/mycd.c
+apue.3e/filedir/umask.c
+apue.3e/filedir/unlink.c
+apue.3e/filedir/zap.c
+apue.3e/figlinks/fig1.10
+apue.3e/figlinks/fig1.3
+apue.3e/figlinks/fig1.4
+apue.3e/figlinks/fig1.5
+apue.3e/figlinks/fig1.6
+apue.3e/figlinks/fig1.7
+apue.3e/figlinks/fig1.8
+apue.3e/figlinks/fig1.9
+apue.3e/figlinks/fig10.10
+apue.3e/figlinks/fig10.11
+apue.3e/figlinks/fig10.12
+apue.3e/figlinks/fig10.14
+apue.3e/figlinks/fig10.15
+apue.3e/figlinks/fig10.18
+apue.3e/figlinks/fig10.19
+apue.3e/figlinks/fig10.2
+apue.3e/figlinks/fig10.20
+apue.3e/figlinks/fig10.22
+apue.3e/figlinks/fig10.23
+apue.3e/figlinks/fig10.24
+apue.3e/figlinks/fig10.25
+apue.3e/figlinks/fig10.26
+apue.3e/figlinks/fig10.28
+apue.3e/figlinks/fig10.29
+apue.3e/figlinks/fig10.31
+apue.3e/figlinks/fig10.5
+apue.3e/figlinks/fig10.6
+apue.3e/figlinks/fig10.7
+apue.3e/figlinks/fig10.8
+apue.3e/figlinks/fig10.9
+apue.3e/figlinks/fig11.10
+apue.3e/figlinks/fig11.11
+apue.3e/figlinks/fig11.12
+apue.3e/figlinks/fig11.14
+apue.3e/figlinks/fig11.15
+apue.3e/figlinks/fig11.16
+apue.3e/figlinks/fig11.2
+apue.3e/figlinks/fig11.3
+apue.3e/figlinks/fig11.4
+apue.3e/figlinks/fig11.5
+apue.3e/figlinks/fig12.11
+apue.3e/figlinks/fig12.12
+apue.3e/figlinks/fig12.13
+apue.3e/figlinks/fig12.16
+apue.3e/figlinks/fig12.17
+apue.3e/figlinks/fig12.4
+apue.3e/figlinks/fig12.8
+apue.3e/figlinks/fig13.1
+apue.3e/figlinks/fig13.6
+apue.3e/figlinks/fig13.7
+apue.3e/figlinks/fig13.8
+apue.3e/figlinks/fig13.9
+apue.3e/figlinks/fig14.1
+apue.3e/figlinks/fig14.12
+apue.3e/figlinks/fig14.20
+apue.3e/figlinks/fig14.21
+apue.3e/figlinks/fig14.24
+apue.3e/figlinks/fig14.27
+apue.3e/figlinks/fig14.5
+apue.3e/figlinks/fig14.6
+apue.3e/figlinks/fig14.7
+apue.3e/figlinks/fig14.9
+apue.3e/figlinks/fig15.11
+apue.3e/figlinks/fig15.12
+apue.3e/figlinks/fig15.14
+apue.3e/figlinks/fig15.15
+apue.3e/figlinks/fig15.17
+apue.3e/figlinks/fig15.18
+apue.3e/figlinks/fig15.19
+apue.3e/figlinks/fig15.31
+apue.3e/figlinks/fig15.33
+apue.3e/figlinks/fig15.35
+apue.3e/figlinks/fig15.5
+apue.3e/figlinks/fig15.6
+apue.3e/figlinks/fig15.7
+apue.3e/figlinks/fig16.10
+apue.3e/figlinks/fig16.11
+apue.3e/figlinks/fig16.12
+apue.3e/figlinks/fig16.16
+apue.3e/figlinks/fig16.17
+apue.3e/figlinks/fig16.18
+apue.3e/figlinks/fig16.19
+apue.3e/figlinks/fig16.20
+apue.3e/figlinks/fig16.22
+apue.3e/figlinks/fig16.9
+apue.3e/figlinks/fig17.10
+apue.3e/figlinks/fig17.12
+apue.3e/figlinks/fig17.13
+apue.3e/figlinks/fig17.14
+apue.3e/figlinks/fig17.15
+apue.3e/figlinks/fig17.16
+apue.3e/figlinks/fig17.17
+apue.3e/figlinks/fig17.18
+apue.3e/figlinks/fig17.19
+apue.3e/figlinks/fig17.2
+apue.3e/figlinks/fig17.20
+apue.3e/figlinks/fig17.21
+apue.3e/figlinks/fig17.22
+apue.3e/figlinks/fig17.23
+apue.3e/figlinks/fig17.24
+apue.3e/figlinks/fig17.25
+apue.3e/figlinks/fig17.26
+apue.3e/figlinks/fig17.27
+apue.3e/figlinks/fig17.28
+apue.3e/figlinks/fig17.29
+apue.3e/figlinks/fig17.3
+apue.3e/figlinks/fig17.30
+apue.3e/figlinks/fig17.31
+apue.3e/figlinks/fig17.4
+apue.3e/figlinks/fig17.5
+apue.3e/figlinks/fig17.8
+apue.3e/figlinks/fig17.9
+apue.3e/figlinks/fig18.10
+apue.3e/figlinks/fig18.11
+apue.3e/figlinks/fig18.12
+apue.3e/figlinks/fig18.13
+apue.3e/figlinks/fig18.14
+apue.3e/figlinks/fig18.15
+apue.3e/figlinks/fig18.16
+apue.3e/figlinks/fig18.17
+apue.3e/figlinks/fig18.18
+apue.3e/figlinks/fig18.20
+apue.3e/figlinks/fig18.21
+apue.3e/figlinks/fig18.22
+apue.3e/figlinks/fig19.10
+apue.3e/figlinks/fig19.11
+apue.3e/figlinks/fig19.12
+apue.3e/figlinks/fig19.16
+apue.3e/figlinks/fig19.9
+apue.3e/figlinks/fig2.13
+apue.3e/figlinks/fig2.14
+apue.3e/figlinks/fig2.16
+apue.3e/figlinks/fig2.17
+apue.3e/figlinks/fig20.3
+apue.3e/figlinks/fig3.1
+apue.3e/figlinks/fig3.11
+apue.3e/figlinks/fig3.12
+apue.3e/figlinks/fig3.2
+apue.3e/figlinks/fig3.5
+apue.3e/figlinks/fig4.12
+apue.3e/figlinks/fig4.16
+apue.3e/figlinks/fig4.21
+apue.3e/figlinks/fig4.22
+apue.3e/figlinks/fig4.23
+apue.3e/figlinks/fig4.24
+apue.3e/figlinks/fig4.25
+apue.3e/figlinks/fig4.3
+apue.3e/figlinks/fig4.8
+apue.3e/figlinks/fig4.9
+apue.3e/figlinks/fig5.11
+apue.3e/figlinks/fig5.12
+apue.3e/figlinks/fig5.13
+apue.3e/figlinks/fig5.15
+apue.3e/figlinks/fig5.4
+apue.3e/figlinks/fig5.5
+apue.3e/figlinks/fig6.11
+apue.3e/figlinks/fig6.2
+apue.3e/figlinks/fig7.1
+apue.3e/figlinks/fig7.11
+apue.3e/figlinks/fig7.13
+apue.3e/figlinks/fig7.14
+apue.3e/figlinks/fig7.16
+apue.3e/figlinks/fig7.3
+apue.3e/figlinks/fig7.4
+apue.3e/figlinks/fig7.9
+apue.3e/figlinks/fig8.1
+apue.3e/figlinks/fig8.12
+apue.3e/figlinks/fig8.13
+apue.3e/figlinks/fig8.16
+apue.3e/figlinks/fig8.17
+apue.3e/figlinks/fig8.20
+apue.3e/figlinks/fig8.21
+apue.3e/figlinks/fig8.22
+apue.3e/figlinks/fig8.23
+apue.3e/figlinks/fig8.24
+apue.3e/figlinks/fig8.25
+apue.3e/figlinks/fig8.28
+apue.3e/figlinks/fig8.29
+apue.3e/figlinks/fig8.3
+apue.3e/figlinks/fig8.30
+apue.3e/figlinks/fig8.31
+apue.3e/figlinks/fig8.5
+apue.3e/figlinks/fig8.6
+apue.3e/figlinks/fig8.8
+apue.3e/figlinks/fig9.12
+apue.3e/figlinks/figB.1
+apue.3e/figlinks/figB.3
+apue.3e/figlinks/figB.4
+apue.3e/figlinks/figC.1
+apue.3e/figlinks/figC.10
+apue.3e/figlinks/figC.12
+apue.3e/figlinks/figC.13
+apue.3e/figlinks/figC.14
+apue.3e/figlinks/figC.15
+apue.3e/figlinks/figC.16
+apue.3e/figlinks/figC.17
+apue.3e/figlinks/figC.18
+apue.3e/figlinks/figC.20
+apue.3e/figlinks/figC.22
+apue.3e/figlinks/figC.23
+apue.3e/figlinks/figC.24
+apue.3e/figlinks/figC.3
+apue.3e/figlinks/figC.4
+apue.3e/figlinks/figC.5
+apue.3e/figlinks/figC.6
+apue.3e/figlinks/figC.7
+apue.3e/figlinks/figC.8
+apue.3e/exercises/asyncsocket.c
+apue.3e/exercises/bo.c
+apue.3e/exercises/fifo1.c
+apue.3e/exercises/fmemopen.c
+apue.3e/exercises/getlogin.c
+apue.3e/exercises/getpw44bsd.c
+apue.3e/exercises/getpwsvr4.c
+apue.3e/exercises/goodexit.c
+apue.3e/exercises/longpath.c
+apue.3e/exercises/Makefile
+apue.3e/exercises/openmax.c
+apue.3e/exercises/pendlock.c
+apue.3e/exercises/pollmsg2.c
+apue.3e/exercises/prtime.c
+apue.3e/exercises/sizepipe.c
+apue.3e/exercises/sleep.c
+apue.3e/exercises/sleepus_poll.c
+apue.3e/exercises/sleepus_select.c
+apue.3e/exercises/vfork3.c
+apue.3e/exercises/zombie.c
+apue.3e/environ/cmd1.c
+apue.3e/environ/cmd2.c
+apue.3e/environ/doatexit.c
+apue.3e/environ/echoarg.c
+apue.3e/environ/getrlimit.c
+apue.3e/environ/hello1.c
+apue.3e/environ/Makefile
+apue.3e/environ/opendata.c
+apue.3e/environ/scope.c
+apue.3e/environ/testjmp.c
+apue.3e/db/apue_db.h
+apue.3e/db/db.c
+apue.3e/db/Makefile
+apue.3e/db/t4.c
+apue.3e/datafiles/getpwnam.c
+apue.3e/datafiles/Makefile
+apue.3e/datafiles/strftime.c
+apue.3e/daemons/init.c
+apue.3e/daemons/Makefile
+apue.3e/daemons/reread.c
+apue.3e/daemons/reread2.c
+apue.3e/daemons/single.c
+apue.3e/advio/deadlock.c
+apue.3e/advio/fixup.awk
+apue.3e/advio/lockfile.c
+apue.3e/advio/Makefile
+apue.3e/advio/mandatory.c
+apue.3e/advio/mcopy2.c
+apue.3e/advio/nonblockw.c
+apue.3e/advio/readn.c
+apue.3e/advio/rot13a.c
+apue.3e/advio/rot13c2.c.in
+apue.3e/advio/writen.c
+]0;phouttdy@pceasapp960:~[?2004h[phouttdy@pceasapp960 ~]$ ls -lt
+[?2004ltotal 132
+-rw-r--r--  1 phouttdy domain users 16384 Feb  4 10:27 hw1-phoutthavong.txt
+-rw-r--r--  1 phouttdy domain users 92830 Feb  4 10:26 [0m[01;31msrc.3e.tar.gz[0m
+drwxr-xr-x  3 phouttdy domain users  4096 Jan 29 16:13 [01;34mcsci3751[0m
+-rw-r--r--  1 phouttdy domain users  1003 Jan 29 16:11 find-result.txt
+-rw-r--r--  1 phouttdy domain users  8192 Jan 29 14:53 typescript
+drwxr-xr-x  2 phouttdy domain users  4096 Jan 29 14:30 [01;34mcse_grid_tutorial[0m
+drwxr-xr-x 27 phouttdy domain users  4096 Mar 19  2014 [01;34mapue.3e[0m
+]0;phouttdy@pceasapp960:~[?2004h[phouttdy@pceasapp960 ~]$ [7mfind . -type f -name "*ak*" > find-result[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfind . -type f -name "*ak*" > find-result
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l]0;phouttdy@pceasapp960:~[?2004h[phouttdy@pceasapp960 ~]$ [7mwc -l < find-result >> find-result[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwc -l < find-result >> find-result
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l]0;phouttdy@pceasapp960:~[?2004h[phouttdy@pceasapp960 ~]$ [7mmv find-result ~/find-result.txt[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv find-result ~/find-result.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l]0;phouttdy@pceasapp960:~[?2004h[phouttdy@pceasapp960 ~]$ [7mls -l ~[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -l ~
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004ltotal 132
+drwxr-xr-x 27 phouttdy domain users  4096 Mar 19  2014 [0m[01;34mapue.3e[0m
+drwxr-xr-x  3 phouttdy domain users  4096 Jan 29 16:13 [01;34mcsci3751[0m
+drwxr-xr-x  2 phouttdy domain users  4096 Jan 29 14:30 [01;34mcse_grid_tutorial[0m
+-rw-r--r--  1 phouttdy domain users  2303 Feb  4 10:28 find-result.txt
+-rw-r--r--  1 phouttdy domain users 16384 Feb  4 10:27 hw1-phoutthavong.txt
+-rw-r--r--  1 phouttdy domain users 92830 Feb  4 10:26 [01;31msrc.3e.tar.gz[0m
+-rw-r--r--  1 phouttdy domain users  8192 Jan 29 14:53 typescript
+]0;phouttdy@pceasapp960:~[?2004h[phouttdy@pceasapp960 ~]$ [7mln -s ~/find-result.txt ./.find-result-clone[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cln -s ~/find-result.txt ./.find-result-clone
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l]0;phouttdy@pceasapp960:~[?2004h[phouttdy@pceasapp960 ~]$ [7mls -i ~/find-result.txt ./.find-result-clone[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -i ~/find-result.txt ./.find-result-clone
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l5282371 /csegrid/home/phouttdy/find-result.txt  5281940 [0m[01;36m./.find-result-clone[0m
+]0;phouttdy@pceasapp960:~[?2004h[phouttdy@pceasapp960 ~]$ date
+[?2004lTue Feb  4 11:28:50 AM MST 2025
+]0;phouttdy@pceasapp960:~[?2004h[phouttdy@pceasapp960 ~]$ exit
+[?2004lexit
+
+Script done on 2025-02-04 11:28:53-07:00 [COMMAND_EXIT_CODE="0"]
