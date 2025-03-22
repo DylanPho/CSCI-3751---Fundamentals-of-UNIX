@@ -1,7 +1,7 @@
 total 40
+-rw-r--r-- 1 phouttdy domain users     0 Mar  8 22:55 aaa
 -rw-r--r-- 1 phouttdy domain users   272 Mar  6 13:58 Makefile
+-rwxr-xr-x 1 phouttdy domain users 18008 Mar  8 19:53 myShell2++
 -rw-r--r-- 1 phouttdy domain users  4334 Mar  8 19:26 myShell2.c
 -rw-r--r-- 1 phouttdy domain users  1215 Mar  8 19:51 myShell2++.c
--rwxr-xr-x 1 phouttdy domain users 18008 Mar  8 19:53 myShell2++
--rw-r--r-- 1 phouttdy domain users   392 Mar  8 22:55 aaa
--rw-r--r-- 1 phouttdy domain users     0 Mar  8 22:56 output.txt
+-rw-r--r-- 1 phouttdy domain users   392 Mar  8 19:58 output.txt
