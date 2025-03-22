@@ -1,0 +1,38 @@
+1. [15 points] implement my_dup2_with_fcntl()
+
+output:
+
+[phouttdy@csci-gnode-02 hw3]$ ./my_dup2_with_fcntl 5 output
+old fd: 3
+new duped fd as requested: 5
+/proc/self/fd/3: new fd file path: /csegrid/home/phouttdy/csci3751/hw3/output
+/proc/self/fd/5: new fd file path: /csegrid/home/phouttdy/csci3751/hw3/output
+
+[Extra credit: 5 points]
+
+output:
+
+[phouttdy@csci-gnode-02 hw3]$ cat output_extra 
+Hello from my_dup2_without_fcntl!
+
+4. [5 points] With the following sequence of function calls in a C program, answer the following questions:
+
+output:
+
+[phouttdy@csci-gnode-02 hw3]$ ls
+Makefile              my_dup2_without_fcntl    output_extra
+my_dup2_with_fcntl    my_dup2_without_fcntl.c  q4_rmdir_test
+my_dup2_with_fcntl.c  output                   q4_rmdir_test.c
+[phouttdy@csci-gnode-02 hw3]$ ./q4_rmdir_test
+Directory was deleted while we are still inside it.
+opendir(.) failed: Stale file handle
+opendir(../test) failed: Stale file handle
+opendir(DIR_NAME) failed: No such file or directory
+[phouttdy@csci-gnode-02 hw3]$ mkdir test
+[phouttdy@csci-gnode-02 hw3]$ ls
+Makefile              my_dup2_without_fcntl    output_extra     test
+my_dup2_with_fcntl    my_dup2_without_fcntl.c  q4_rmdir_test
+my_dup2_with_fcntl.c  output                   q4_rmdir_test.c
+[phouttdy@csci-gnode-02 hw3]$ ./q4_rmdir_test
+mkdir failed: File exists
+
