@@ -1,0 +1,10 @@
+CC = gcc
+CFLAGS = -Wall -g
+TARGET = myFind
+OBJS = myFind.c error.c
+
+$(TARGET): $(OBJS)
+	$(CC) $(CFLAGS) -o $(TARGET) $(OBJS)
+
+clean:
+	rm -f $(TARGET) *.o

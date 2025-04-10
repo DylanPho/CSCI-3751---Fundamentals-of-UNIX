@@ -1,0 +1,2 @@
+ls: cannot access 'fakefile': No such file or directory
+-rw-r--r-- 1 phouttdy domain users 3602 Apr 10 15:24 myShell2.c
