@@ -1,0 +1,99 @@
+0 By SIGALRM:
+	Current date and time: 2025-04-28 Monday 03:40:07 PM, MDT
+	Until 2025-12-24 : 240 Days, 8 Hours, 19 Minutes, 53 Seconds
+	Total number of seconds: 20765993 seconds
+1 By SIGALRM:
+	Current date and time: 2025-04-28 Monday 03:40:10 PM, MDT
+	Until 2025-12-24 : 240 Days, 8 Hours, 19 Minutes, 50 Seconds
+	Total number of seconds: 20765990 seconds
+2 By SIGALRM:
+	Current date and time: 2025-04-28 Monday 03:40:13 PM, MDT
+	Until 2025-12-24 : 240 Days, 8 Hours, 19 Minutes, 47 Seconds
+	Total number of seconds: 20765987 seconds
+3 By SIGALRM:
+	Current date and time: 2025-04-28 Monday 03:40:21 PM, MDT
+	Until 2025-12-24 : 240 Days, 8 Hours, 19 Minutes, 39 Seconds
+	Total number of seconds: 20765979 seconds
+^C4 By SIGINT:
+	Current date and time: 2025-04-28 Monday 03:40:21 PM, MDT
+	Until 2025-07-04 : 66 Days, 8 Hours, 19 Minutes, 39 Seconds
+	Total number of seconds: 5732379 seconds
+Quit (y/n)? y
+[phouttdy@csci-gnode-02 PA3]$ ./sigTest
+0 By SIGALRM:
+	Current date and time: 2025-04-28 Monday 03:40:37 PM, MDT
+	Until 2025-12-24 : 240 Days, 8 Hours, 19 Minutes, 23 Seconds
+	Total number of seconds: 20765963 seconds
+1 By SIGALRM:
+	Current date and time: 2025-04-28 Monday 03:40:40 PM, MDT
+	Until 2025-12-24 : 240 Days, 8 Hours, 19 Minutes, 20 Seconds
+	Total number of seconds: 20765960 seconds
+2 By SIGALRM:
+	Current date and time: 2025-04-28 Monday 03:40:43 PM, MDT
+	Until 2025-12-24 : 240 Days, 8 Hours, 19 Minutes, 17 Seconds
+	Total number of seconds: 20765957 seconds
+^C3 By SIGINT:
+	Current date and time: 2025-04-28 Monday 03:40:44 PM, MDT
+	Until 2025-07-04 : 66 Days, 8 Hours, 19 Minutes, 16 Seconds
+	Total number of seconds: 5732356 seconds
+Quit (y/n)? x
+Invalid input. Please type y or n.
+Quit (y/n)? n
+4 By SIGALRM:
+	Current date and time: 2025-04-28 Monday 03:41:00 PM, MDT
+	Until 2025-12-24 : 240 Days, 8 Hours, 19 Minutes, 0 Seconds
+	Total number of seconds: 20765940 seconds
+5 By SIGALRM:
+	Current date and time: 2025-04-28 Monday 03:41:03 PM, MDT
+	Until 2025-12-24 : 240 Days, 8 Hours, 18 Minutes, 57 Seconds
+	Total number of seconds: 20765937 seconds
+6 By SIGALRM:
+	Current date and time: 2025-04-28 Monday 03:41:06 PM, MDT
+	Until 2025-12-24 : 240 Days, 8 Hours, 18 Minutes, 54 Seconds
+	Total number of seconds: 20765934 seconds
+7 By SIGALRM:
+	Current date and time: 2025-04-28 Monday 03:41:14 PM, MDT
+	Until 2025-12-24 : 240 Days, 8 Hours, 18 Minutes, 46 Seconds
+	Total number of seconds: 20765926 seconds
+8 By SIGALRM:
+	Current date and time: 2025-04-28 Monday 03:41:17 PM, MDT
+	Until 2025-12-24 : 240 Days, 8 Hours, 18 Minutes, 43 Seconds
+	Total number of seconds: 20765923 seconds
+9 By SIGALRM:
+	Current date and time: 2025-04-28 Monday 03:41:20 PM, MDT
+	Until 2025-12-24 : 240 Days, 8 Hours, 18 Minutes, 40 Seconds
+	Total number of seconds: 20765920 seconds
+10 By SIGALRM:
+	Current date and time: 2025-04-28 Monday 03:41:28 PM, MDT
+	Until 2025-12-24 : 240 Days, 8 Hours, 18 Minutes, 32 Seconds
+	Total number of seconds: 20765912 seconds
+^C11 By SIGINT:
+	Current date and time: 2025-04-28 Monday 03:41:29 PM, MDT
+	Until 2025-07-04 : 66 Days, 8 Hours, 18 Minutes, 31 Seconds
+	Total number of seconds: 5732311 seconds
+Quit (y/n)? n
+12 By SIGALRM:
+	Current date and time: 2025-04-28 Monday 03:41:35 PM, MDT
+	Until 2025-12-24 : 240 Days, 8 Hours, 18 Minutes, 25 Seconds
+	Total number of seconds: 20765905 seconds
+13 By SIGALRM:
+	Current date and time: 2025-04-28 Monday 03:41:38 PM, MDT
+	Until 2025-12-24 : 240 Days, 8 Hours, 18 Minutes, 22 Seconds
+	Total number of seconds: 20765902 seconds
+14 By SIGALRM:
+	Current date and time: 2025-04-28 Monday 03:41:46 PM, MDT
+	Until 2025-12-24 : 240 Days, 8 Hours, 18 Minutes, 14 Seconds
+	Total number of seconds: 20765894 seconds
+15 By SIGALRM:
+	Current date and time: 2025-04-28 Monday 03:41:49 PM, MDT
+	Until 2025-12-24 : 240 Days, 8 Hours, 18 Minutes, 11 Seconds
+	Total number of seconds: 20765891 seconds
+16 By SIGALRM:
+	Current date and time: 2025-04-28 Monday 03:41:52 PM, MDT
+	Until 2025-12-24 : 240 Days, 8 Hours, 18 Minutes, 8 Seconds
+	Total number of seconds: 20765888 seconds
+^C17 By SIGINT:
+	Current date and time: 2025-04-28 Monday 03:41:53 PM, MDT
+	Until 2025-07-04 : 66 Days, 8 Hours, 18 Minutes, 7 Seconds
+	Total number of seconds: 5732287 seconds
+Quit (y/n)? y
